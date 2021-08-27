@@ -25,7 +25,7 @@ namespace Aplicación2
                 if (OP == 1)
                 {
                     StreamWriter ar;
-                    Console.WriteLine("Que nombre le pondrá: ");
+                    Console.WriteLine("Que nombre le pondrá a su archivo: ");
                     archivo = Console.ReadLine();
                     ar = File.CreateText(archivo + ".txt");
                     nombre = archivo;
@@ -47,7 +47,7 @@ namespace Aplicación2
                     Console.WriteLine("Deseo salir");
                 }
                 Console.Clear();
-                Console.WriteLine("Desea Continuar ['s/n']");
+                Console.WriteLine("Quisiera Continuar ['s/n']");
                 op = char.Parse(Console.ReadLine());
 
             }
